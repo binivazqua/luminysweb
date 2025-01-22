@@ -58,3 +58,16 @@ div h1 {
     display: flex;
     gap: 2rem;
 }
+
+div .logo {
+    display: flex;
+    justify-content: space-between;
+    width: 20rem;
+    align-items: center;
+}
+
+.logoimg {
+    width: 100px;
+    height: 100px;
+
+}
