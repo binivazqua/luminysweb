@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    background-image: url('https://img.freepik.com/free-vector/bring-night-space-wallpaper-with-glowing-starfield_1017-53512.jpg?t=st=1737576791~exp=1737580391~hmac=cd482e976aec980ac5fc232a3c400a999a75dfdc381dc730da183f5bdc82ad5c&w=2000');
+    background-size: cover;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+a:hover {
+    color: greenyellow;
+}
+
+header {
+    position: relative;
+    padding: 0 2rem;
+    font-family: 'Poppins';
+
+}
+
+div h1 {
+    color: white;
+    font-size: 3.5rem;
+    margin-left: -100%;
+}
+
+.navbar {
+    font-size: 2rem;
+    padding: 2rem;
+    width: 100%;
+    height: 10%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .link {
+    display: flex;
+    gap: 2rem;
+}
